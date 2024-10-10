@@ -16,16 +16,16 @@ But Reduce-Reduce conflicts will occur.
 
 E->E+T
   
-  |E-T
+   |E-T
   
-  |T
+   |T
 
 T->T*F
   
-  |T/F
+   |T/F
   
-  |F
+   |F
 
 F->(E)
   
-  |num
+   |num
