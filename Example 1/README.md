@@ -14,18 +14,18 @@ But Reduce-Reduce conflicts will occur.
 
 ### Converting into an unambiguous grammar:
 
-E->E+T
+E -> E + T
   
-   |E-T
+   | E - T
   
-   |T
+   | T
 
-T->T*F
+T -> T * F
   
-   |T/F
+   | T / F
   
-   |F
+   | F
 
-F->(E)
+F -> ( E )
   
-   |num
+   | num
