@@ -15,10 +15,17 @@ But Reduce-Reduce conflicts will occur.
 ### Converting into an unambiguous grammar:
 
 E->E+T
+  
   |E-T
+  
   |T
+
 T->T*F
+  
   |T/F
+  
   |F
+
 F->(E)
+  
   |num
